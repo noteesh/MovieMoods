@@ -42,8 +42,9 @@ jupyter notebook MovieMoods.ipynb
 ## Requirements Met
 
 ### Core Requirements
-- ✅ **Two Techniques**: Classification + RAG
-- ✅ **Classification**: Fine-tuned DistilBERT on 500 IMDB reviews
+- ✅ **Techniques Used **: Fine-tuning + Classification + RAG\
+- ✅ **Fine-tuning**: Fine-tuned DistilBERT on 500 IMDB reviews
+- ✅ **Classification**: Conducted binary sentiment classification with classification metrics
 - ✅ **RAG**: Semantic search over 20 movie summaries
 
 ### Evaluation
@@ -139,16 +140,6 @@ Install all: `pip install -r requirements.txt`
 - **Dataset**: IMDB reviews (public, no PII/PHI)
 - **Intended Use**: Educational demonstration only
 - **Not for Production**: Without further validation
-- **Transparency**: LLM-generated corpus (manually validated)
+- **Transparency**: LLM-generated corpus (manually validated) & Github Structure + ReadMe format
 
 ---
-
-## License
-
-MIT License - Educational use
-
----
-
-**Author**: [Your Name]  
-**Course**: DSA 495 - Fundamentals of LLMs  
-**Date**: December 2024
